@@ -1,0 +1,56 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+img {
+  max-width: 100%;
+}
+
+.nav-outer {
+	width: 100%;
+	min-height: 67px;
+	background: #505E67;
+/*	position: fixed !important; */
+	z-index: 100000000;
+}
+.nav-wrap {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.zach-logo {
+  display: inline-block;
+  float: left;
+  height: 67px;
+}
+.zach-logo img{
+  height: 100%;
+}
+.nav-menu{
+  float: right;
+  text-align: center;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+.nav-menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 8px;
+}
+nav a{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:1.25em;
+  font-weight: 700;
+  padding:5px 10px;
+  color: #FFF;
+}
+nav a:hover {
+  color: #c4c4c4;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+}

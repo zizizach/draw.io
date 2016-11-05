@@ -1,0 +1,213 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5%;
+	color: #383838;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5%;
+	color: #383838;
+}
+p{
+	text-align: justify;
+	color: #252525;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-outer {
+	width: 100%;
+  height: 67px;
+  background: #505E67;
+  z-index: 100000000;
+  position: fixed;
+}
+.nav-wrap{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.zach-logo img{
+  display: inline-block;
+  float: left;
+  height: 67px;
+}
+.nav-menu{
+  float: right;
+  text-align: center;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+.nav-menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 8px;
+}
+nav a{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:1.25em;
+  font-weight: 700;
+  padding:5px 10px;
+  color: #FFF;
+}
+nav a:hover {
+  color: #c4c4c4;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+}
+
+.bgimg{
+	background: url("http://www.publicdomainpictures.net/pictures/130000/nahled/gray-gradient-background-1440541572Qcf.jpg") no-repeat 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+.body-outer {
+  padding-top: 67px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.about-zach{
+	background: #c7c7c7;
+  height: 600px;
+}
+
+.about-zach-inner{
+  padding:5% 15%;
+}
+.about-zach-inner img{
+  max-height: 300px;
+}
+.minor-side{
+	max-width: 30%;
+	float: left;
+	display: inline-block;
+	margin: 0 auto;
+}
+.major-side{
+	max-width: 40%;
+	float: right;
+	display: inline-block;
+	margin: 0 auto;
+}
+.skill-zach{
+	background: #d2d2d2;
+  height: 600px;
+	padding: 2% 0;
+}
+.one-third{
+	float: left;
+	display: inline-block;
+	max-width: 23%;
+	padding: 5% 5%;
+}
+.one-third img{
+	background: white;
+	border-radius: 100%;
+	max-width: 100%;
+	max-height: auto;
+}
+.one-third p{
+	margin-top: 10%;
+}
+.contact-zach {
+	background: #c7c7c7;
+  height: 600px;
+	padding: 2% 0;
+}
+.contact-inner {
+	text-align: center;
+	padding: 5% 15%;
+}
+.contact-zach p{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.contact-zach img{
+	margin-top: 5%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	max-width: 100%;
+	max-height: auto;
+}
+footer{
+
+	background-color: #505e67;
+	width: 100%;
+	padding: 1% 0;
+	overflow: auto;
+}
+footer p{
+	max-width: 1120px;
+	float: left;
+	color: #DDD;
+}
+@media screen and (max-width: 768px){
+	.nav-outer {
+		height: auto;
+	}
+
+	.minor-side, .major-side{
+		text-align: center;
+		max-width: 100%;
+		height:auto;
+		margin: 4% 0;
+		position: static;
+		display:block;
+		float:none;
+	}
+	.skill-zach{
+		height:auto;
+	}
+	.one-third {
+		display:grid;
+		text-align: center;
+		max-width: 100%;
+		margin: 4% 0;
+		position: static;
+		display:block;
+		float:none;
+	}
+	.one-third img{
+		max-width: 70%;
+		height: auto;
+	}
+	.contact-zach{
+		max-width: 100%;
+		height: auto;
+	}
+	.contact-inner {
+		text-align: center;
+		padding: 5% 5%;
+	}
+	.contact-zach img{
+		max-width: 70%;
+		height: auto;
+	}
+	@media screen and (max-width: 469px){
+		.nav-outer {
+			height: auto;
+		}
+		.body-outer {
+			padding-top: 134px;
+		}
+	@media screen and (max-width: 217){
+		.nav-outer {
+			height: auto;
+		}
+		.body-outer {
+		  padding-top: 240px;
+	}
+}
